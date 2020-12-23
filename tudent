@@ -1,0 +1,22 @@
+
+[1mFrom:[0m /mnt/c/Users/John/dev/flatiron/labs/ruby-remote-data-practice-student-scraper-lab/lib/scraper.rb @ line 9 Scraper.scrape_index_page:
+
+     [1;34m6[0m: [32mdef[0m [1;36mself[0m.[1;34mscrape_index_page[0m(index_url)
+     [1;34m7[0m:   page = [1;34;4mNokogiri[0m::HTML(open(index_url))
+     [1;34m8[0m:   student_cards = page.css([31m[1;31m"[0m[31mroster-cards-container[1;31m"[0m[31m[0m)
+ =>  [1;34m9[0m:   binding.pry
+    [1;34m10[0m: 
+    [1;34m11[0m:   [1;34m# studentsscraper = Nokogiri::HTML(open(index_url))[0m
+    [1;34m12[0m:   [1;34m# one_more_level = studentsscraper.css()[0m
+    [1;34m13[0m: 
+    [1;34m14[0m:   [1;34m# binding.pry[0m
+    [1;34m15[0m:   [1;34m# students = [][0m
+    [1;34m16[0m:   [1;34m# students<< {[0m
+    [1;34m17[0m:   [1;34m#   :name studentsscraper.css()[0m
+    [1;34m18[0m:   [1;34m#   :location studentsscraper.css()[0m
+    [1;34m19[0m:   [1;34m#   :profile_url studentsscraper.css()[0m
+    [1;34m20[0m:   [1;34m# }[0m
+    [1;34m21[0m: 
+    [1;34m22[0m: 
+    [1;34m23[0m: [32mend[0m
+
